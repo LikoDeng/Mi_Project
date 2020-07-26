@@ -1,0 +1,22 @@
+/* 消除浏览器的默认样式 */
+/* 初始化内外边距 */
+body, p, ul, ol, h1, h2, h3, h4, h5, h6, dl, dt, dd{
+    margin: 0;
+    padding: 0;
+}
+
+/* 清除圆点默认样式 */
+ul, ol {
+    list-style: none;
+}
+
+/* 不给输入框边框 */
+input {
+    border: none;
+    outline: none;
+}
+
+/* 清除a标签默认样式 */
+a {
+    text-decoration: none;
+}
